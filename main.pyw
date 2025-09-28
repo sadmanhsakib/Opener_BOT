@@ -85,7 +85,7 @@ def is_new_day(today_counter):
             file.write("[New Day]\n")
         # resetting the today_counter back to zero
         today_counter = 1
-
     return today_counter
+
 
 main()
