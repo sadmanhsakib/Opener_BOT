@@ -8,7 +8,7 @@ The user has to add the URLs and shortcuts as mentioned later. The script at fir
 1. Download the GitHub repository.<br>
 2. Unzip the repository.<br>
 3. Create a ".env" file in the same directory and open it. <br>
-4. Write: PATH_EVERYDAY="". Add the paths inside the double inverted commas. Be sure to separate the paths with a comma(,) in between and ensure that there are no whitespaces. <br>
-5. On the next line in the ".env" folder, write: PATH_EVERYWEEK="". Add the paths that you want to delete every week in here.<br>
+4. Write: URLS="". Add the paths inside the double inverted commas. Be sure to separate the paths with a comma(,) in between and ensure that there are no whitespaces. <br>
+5. On the next line in the ".env" folder, write: SHORTCUTS="". Add the paths that you want to delete every week in here.<br>
 6. Open the Task Scheduler.<br>
 7. Create a new task for the script. (Trigger can be whatever the user wants. Personally, I set my trigger when the user logs on. Then the script runs again and again every 3 hours indefinitely .)<br>
